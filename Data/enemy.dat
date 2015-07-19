@@ -1,0 +1,61 @@
+// Taken from the Visine WinHelp file that is available from FX3's website.
+00:Bunbi Heli
+01:Metool
+02:Flea
+03:Spine
+04:Vertical Octopus Battery
+05:Screw Bomber on the Floor
+06:Watcher
+07:Pepe
+08:Killer Bullet
+09:Big Eye
+0A:Flying Shell
+0B:Wall Gun Shooting Left (Delayed)
+0C:Flame/Electricity Thrower (Delayed)
+0D:Bombomb
+0E:Lava
+0F:Fire Wall
+10:Popping Block Generator
+11:Not Used
+12:Sniper Joe
+13:Foot Holder
+14:Crazy Razy
+15:Picket Man
+16:Screw Bomber from the Top
+17:Wall Gun Shooting Right (Delayed)
+18:Flame Thrower on Standby
+19:Animated Electricity
+1A:Not Used
+1B:Not Used
+1C:Blader
+1D:Not Used
+1E:Not Used
+1F:??? (Used in Iceman's stage)
+20:Not Used
+21:Horizontal Octopus Battery
+22:Wall Gun Shooting Left
+23:Wall Gun Shooting Right
+24:Flame/Electricity Thrower
+25:Animated Electricity (Delayed)
+26:Not Used
+27:Not Used
+28:Not Used
+29:Not Used
+2A:Not Used
+2B:Not Used
+2C:??? (Used in Gutsman's stage)
+2F:Moving Platform
+30:BG Palette Controller
+31:Tackle Fire
+32:Palette Animation Controller
+3B:Boss Generator
+// Items
+3D:Small Weapon Capsule
+3E:Small Life Capsule
+3F:Large Weapon Capsule
+40:Large Life Capsule
+41:Extra Life
+42:Magnet Beam
+43:Teleporter
+45:Yashichi
+FF:Enemy Generator End

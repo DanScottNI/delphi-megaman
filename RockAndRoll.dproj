@@ -1,0 +1,172 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{291b287e-bd2c-4377-bd14-f41ded3fcf31}</ProjectGuid>
+    <MainSource>RockAndRoll.dpr</MainSource>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <DCC_DCCCompiler>DCC32</DCC_DCCCompiler>
+    <DCC_DependencyCheckOutputName>RockAndRoll.exe</DCC_DependencyCheckOutputName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <Version>7.0</Version>
+    <DCC_DebugInformation>False</DCC_DebugInformation>
+    <DCC_LocalDebugSymbols>False</DCC_LocalDebugSymbols>
+    <DCC_Optimize>False</DCC_Optimize>
+    <DCC_SymbolReferenceInfo>0</DCC_SymbolReferenceInfo>
+    <DCC_UnitSearchPath>$(DELPHI)\Lib\Debug;C:\PROGRA~1\Borland\Delphi7\Lib\COMPON~1\jvcl3\jcl\lib\D7\debug;C:\Program Files\Borland\Delphi7\Lib\Components\JVCL300BETA1JCL190Complete\jcl\lib\d7\debug</DCC_UnitSearchPath>
+    <DCC_ResourcePath>$(DELPHI)\Lib\Debug;C:\PROGRA~1\Borland\Delphi7\Lib\COMPON~1\jvcl3\jcl\lib\D7\debug;C:\Program Files\Borland\Delphi7\Lib\Components\JVCL300BETA1JCL190Complete\jcl\lib\d7\debug</DCC_ResourcePath>
+    <DCC_ObjPath>$(DELPHI)\Lib\Debug;C:\PROGRA~1\Borland\Delphi7\Lib\COMPON~1\jvcl3\jcl\lib\D7\debug;C:\Program Files\Borland\Delphi7\Lib\Components\JVCL300BETA1JCL190Complete\jcl\lib\d7\debug</DCC_ObjPath>
+    <DCC_IncludePath>$(DELPHI)\Lib\Debug;C:\PROGRA~1\Borland\Delphi7\Lib\COMPON~1\jvcl3\jcl\lib\D7\debug;C:\Program Files\Borland\Delphi7\Lib\Components\JVCL300BETA1JCL190Complete\jcl\lib\d7\debug</DCC_IncludePath>
+    <DCC_Define>RELEASE</DCC_Define>
+    <DCC_SYMBOL_PLATFORM>False</DCC_SYMBOL_PLATFORM>
+    <DCC_UNIT_PLATFORM>False</DCC_UNIT_PLATFORM>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <Version>7.0</Version>
+    <DCC_Optimize>False</DCC_Optimize>
+    <DCC_SymbolReferenceInfo>2</DCC_SymbolReferenceInfo>
+    <DCC_UnitSearchPath>$(DELPHI)\Lib\Debug;C:\PROGRA~1\Borland\Delphi7\Lib\COMPON~1\jvcl3\jcl\lib\D7\debug;C:\Program Files\Borland\Delphi7\Lib\Components\JVCL300BETA1JCL190Complete\jcl\lib\d7\debug</DCC_UnitSearchPath>
+    <DCC_ResourcePath>$(DELPHI)\Lib\Debug;C:\PROGRA~1\Borland\Delphi7\Lib\COMPON~1\jvcl3\jcl\lib\D7\debug;C:\Program Files\Borland\Delphi7\Lib\Components\JVCL300BETA1JCL190Complete\jcl\lib\d7\debug</DCC_ResourcePath>
+    <DCC_ObjPath>$(DELPHI)\Lib\Debug;C:\PROGRA~1\Borland\Delphi7\Lib\COMPON~1\jvcl3\jcl\lib\D7\debug;C:\Program Files\Borland\Delphi7\Lib\Components\JVCL300BETA1JCL190Complete\jcl\lib\d7\debug</DCC_ObjPath>
+    <DCC_IncludePath>$(DELPHI)\Lib\Debug;C:\PROGRA~1\Borland\Delphi7\Lib\COMPON~1\jvcl3\jcl\lib\D7\debug;C:\Program Files\Borland\Delphi7\Lib\Components\JVCL300BETA1JCL190Complete\jcl\lib\d7\debug</DCC_IncludePath>
+    <DCC_Define>DEBUG</DCC_Define>
+    <DCC_SYMBOL_PLATFORM>False</DCC_SYMBOL_PLATFORM>
+    <DCC_UNIT_PLATFORM>False</DCC_UNIT_PLATFORM>
+  </PropertyGroup>
+  <ProjectExtensions>
+    <Borland.Personality>Delphi.Personality</Borland.Personality>
+    <Borland.ProjectType />
+    <BorlandProject>
+<BorlandProject><Delphi.Personality><Parameters><Parameters Name="UseLauncher">False</Parameters><Parameters Name="LoadAllSymbols">True</Parameters><Parameters Name="LoadUnspecifiedSymbols">False</Parameters></Parameters><VersionInfo><VersionInfo Name="IncludeVerInfo">True</VersionInfo><VersionInfo Name="AutoIncBuild">True</VersionInfo><VersionInfo Name="MajorVer">2</VersionInfo><VersionInfo Name="MinorVer">0</VersionInfo><VersionInfo Name="Release">0</VersionInfo><VersionInfo Name="Build">9</VersionInfo><VersionInfo Name="Debug">False</VersionInfo><VersionInfo Name="PreRelease">False</VersionInfo><VersionInfo Name="Special">False</VersionInfo><VersionInfo Name="Private">False</VersionInfo><VersionInfo Name="DLL">False</VersionInfo><VersionInfo Name="Locale">2057</VersionInfo><VersionInfo Name="CodePage">1252</VersionInfo></VersionInfo><VersionInfoKeys><VersionInfoKeys Name="CompanyName">DanSoft</VersionInfoKeys><VersionInfoKeys Name="FileDescription">A Mega Man level edtor.</VersionInfoKeys><VersionInfoKeys Name="FileVersion">2.0.0.9</VersionInfoKeys><VersionInfoKeys Name="InternalName"></VersionInfoKeys><VersionInfoKeys Name="LegalCopyright"></VersionInfoKeys><VersionInfoKeys Name="LegalTrademarks"></VersionInfoKeys><VersionInfoKeys Name="OriginalFilename"></VersionInfoKeys><VersionInfoKeys Name="ProductName">Rock And Roll</VersionInfoKeys><VersionInfoKeys Name="ProductVersion">2.0.0.0</VersionInfoKeys><VersionInfoKeys Name="Comments">A Mega Man editor for Windows.</VersionInfoKeys></VersionInfoKeys><Source><Source Name="MainSource">RockAndRoll.dpr</Source></Source></Delphi.Personality><ModelSupport>False</ModelSupport></BorlandProject></BorlandProject>
+  </ProjectExtensions>
+  <Import Project="$(MSBuildBinPath)\Borland.Delphi.Targets" />
+  <ItemGroup>
+    <DelphiCompile Include="RockAndRoll.dpr">
+      <MainSource>MainSource</MainSource>
+    </DelphiCompile>
+    <DCCReference Include="cconfiguration.pas" />
+    <DCCReference Include="cenemy.pas" />
+    <DCCReference Include="cEnemyStatistics.pas" />
+    <DCCReference Include="clevel.pas" />
+    <DCCReference Include="cmegarom.pas" />
+    <DCCReference Include="cPatternTableSettings.pas" />
+    <DCCReference Include="csound.pas" />
+    <DCCReference Include="cSpecobj.pas" />
+    <DCCReference Include="cStatistics.pas" />
+    <DCCReference Include="fAbout.pas">
+      <Form>frmAbout</Form>
+    </DCCReference>
+    <DCCReference Include="fAdvancedEnemyManagement.pas">
+      <Form>frmAdvancedEnemyInfo</Form>
+    </DCCReference>
+    <DCCReference Include="fBackupManagement.pas">
+      <Form>frmBackupManagement</Form>
+    </DCCReference>
+    <DCCReference Include="fClearData.pas">
+      <Form>frmClearData</Form>
+    </DCCReference>
+    <DCCReference Include="fDataDisp.pas">
+      <Form>frmDataDisp</Form>
+    </DCCReference>
+    <DCCReference Include="fDebugROMViewer.pas">
+      <Form>frmDebugROMViewer</Form>
+    </DCCReference>
+    <DCCReference Include="fDistribution.pas">
+      <Form>frmDistribution</Form>
+    </DCCReference>
+    <DCCReference Include="fEnemyDebug.pas">
+      <Form>frmEnemyDebug</Form>
+    </DCCReference>
+    <DCCReference Include="fEnemyIndex.pas">
+      <Form>frmEnemyIndexEditor</Form>
+    </DCCReference>
+    <DCCReference Include="fEnemyProperties.pas">
+      <Form>frmEnemyScreenChanger</Form>
+    </DCCReference>
+    <DCCReference Include="fEnemyStatistics.pas">
+      <Form>frmEnemyStatistics</Form>
+    </DCCReference>
+    <DCCReference Include="fFileProperties.pas">
+      <Form>frmFileProperties</Form>
+    </DCCReference>
+    <DCCReference Include="fGoToLevel.pas">
+      <Form>frmGoToLevel</Form>
+    </DCCReference>
+    <DCCReference Include="fHexadecimalEntry.pas">
+      <Form>frmHex</Form>
+    </DCCReference>
+    <DCCReference Include="fKeyboardLayouts.pas">
+      <Form>frmKeyboardLayout</Form>
+    </DCCReference>
+    <DCCReference Include="fLevelProperties.pas">
+      <Form>frmLevelProperties</Form>
+    </DCCReference>
+    <DCCReference Include="fNewStatistics.pas">
+      <Form>frmNStatistics</Form>
+    </DCCReference>
+    <DCCReference Include="fOpenDialog.pas">
+      <Form>frmOpenDialog</Form>
+    </DCCReference>
+    <DCCReference Include="fPalette.pas">
+      <Form>frmPalette</Form>
+    </DCCReference>
+    <DCCReference Include="fPatEdit.pas">
+      <Form>frmPatEdit</Form>
+    </DCCReference>
+    <DCCReference Include="fPatternTableSettings.pas">
+      <Form>frmPatternTableSettings</Form>
+    </DCCReference>
+    <DCCReference Include="fPreferences.pas">
+      <Form>frmPreferences</Form>
+    </DCCReference>
+    <DCCReference Include="fRockAndRollMain.pas">
+      <Form>frmRockAndRollMain</Form>
+    </DCCReference>
+    <DCCReference Include="fRoomOrderEditor.pas">
+      <Form>frmRoomOrder</Form>
+    </DCCReference>
+    <DCCReference Include="fRoomOrderKey.pas">
+      <Form>frmRoomOrderKey</Form>
+    </DCCReference>
+    <DCCReference Include="fScrKey.pas">
+      <Form>frmScrollKey</Form>
+    </DCCReference>
+    <DCCReference Include="fScrollEditor.pas">
+      <Form>frmScrollEditor</Form>
+    </DCCReference>
+    <DCCReference Include="fScrollRoomEd.pas">
+      <Form>frmScrollRoomEd</Form>
+    </DCCReference>
+    <DCCReference Include="fSimpleScrollEdit.pas">
+      <Form>frmSimpleScrollEd</Form>
+    </DCCReference>
+    <DCCReference Include="fSoundEffectEditor.pas">
+      <Form>frmSoundEffectEditor</Form>
+    </DCCReference>
+    <DCCReference Include="fSpecObjProp.pas">
+      <Form>frmSpecObjProp</Form>
+    </DCCReference>
+    <DCCReference Include="fSpriteChange.pas">
+      <Form>frmSpriteChange</Form>
+    </DCCReference>
+    <DCCReference Include="fTileEditor.pas">
+      <Form>frm16x16TileEditor</Form>
+    </DCCReference>
+    <DCCReference Include="fTSAEditor.pas">
+      <Form>frmTSA</Form>
+    </DCCReference>
+    <DCCReference Include="uConsts.pas" />
+    <DCCReference Include="uglobal.pas" />
+    <DCCReference Include="ulunarcompress.pas" />
+    <DCCReference Include="uresourcestring.pas" />
+    <DCCReference Include="uROM.pas" />
+    <None Include="changelog.txt" />
+    <None Include="Data\data.dat" />
+    <None Include="Data\enemy.dat" />
+    <None Include="Data\Mega Man (E) (!).ini" />
+    <None Include="Data\Mega Man (U).ini" />
+    <None Include="Data\Rockman (J).ini" />
+    <None Include="Data\se.dat" />
+    <None Include="Data\tsaset.dat" />
+  </ItemGroup>
+</Project>
